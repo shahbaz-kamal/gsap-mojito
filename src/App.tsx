@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
 import Cocktail from "./components/Cocktail";
+import About from "./components/About";
 
 // scrollTriger will alow us to animate while scrolling and split text will help us to break text into individual word or characters for detailing
 
@@ -18,6 +19,9 @@ const App = () => {
       </section>
       <section>
         <Cocktail></Cocktail>
+      </section>
+      <section>
+        <About></About>
       </section>
       <div className="h-[100vh] bg-black"></div>
     </main>
