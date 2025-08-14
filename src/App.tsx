@@ -1,7 +1,9 @@
 import gsap from "gsap";
-import { ScrollTrigger, SplitText } from "gsap/all";
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { SplitText } from "gsap/SplitText";
 
 // scrollTriger will alow us to animate while scrolling and split text will help us to break text into individual word or characters for detailing
 
