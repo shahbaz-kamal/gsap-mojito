@@ -13,6 +13,7 @@ const App = () => {
       <section>
         <Hero></Hero>
       </section>
+      <div className="h-[100vh] bg-black"></div>
     </main>
   );
 };

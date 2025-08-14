@@ -13,6 +13,26 @@ const Hero = () => {
       ease: "expo.out",
       stagger: 0.05,
     });
+    gsap.from(paragraphSplit.lines, {
+      opacity: 0,
+      yPercent: 100,
+      duration: 1.8,
+      ease: "expo.out",
+      stagger: 0.06,
+    });
+    
+    
+    gsap
+      .timeline({
+        scrollTrigger: {
+          trigger: "#hero",
+          start: "top top",
+          end: "bottom top",
+          scrub: true,
+        },
+      })
+      .to(".right-leaf", { y: 200 }, 0)
+      .to("left-leaf", { y: -200 }, 0);
   }, []);
   return (
     <div id="hero" className="noisy">
