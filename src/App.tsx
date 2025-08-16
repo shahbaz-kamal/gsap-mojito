@@ -7,6 +7,7 @@ import { SplitText } from "gsap/SplitText";
 import Cocktail from "./components/Cocktail";
 import About from "./components/About";
 import Art from "./components/Art";
+import Menu from "./components/Menu";
 
 // scrollTriger will alow us to animate while scrolling and split text will help us to break text into individual word or characters for detailing
 
@@ -26,6 +27,9 @@ const App = () => {
       </section>
       <section>
         <Art></Art>
+      </section>
+      <section>
+        <Menu></Menu>
       </section>
       <div className="h-[100vh] bg-black"></div>
     </main>
